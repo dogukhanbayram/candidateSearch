@@ -73,7 +73,7 @@ def fullStack(request):
 
     sayac2 = 0
     for data in cleanedData:
-        getProf = requests.get(cleanedData[sayac2], auth=('dogukhanbayram','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'))
+        getProf = requests.get(cleanedData[sayac2], auth=('githubusername','githubapitoken'))# YOU NEED TO CHANGE THIS
         sayac2=sayac2+1
         liste2 = []
         liste2.append(getProf.json())
@@ -113,7 +113,7 @@ def mobileDev(request):
 
     sayac2 = 0
     for data in cleanedData:
-        getProf = requests.get(cleanedData[sayac2], auth=('dogukhanbayram','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'))
+        getProf = requests.get(cleanedData[sayac2], auth=('githubusername','githubapitoken'))# YOU NEED TO CHANGE THIS
         sayac2=sayac2+1
         liste2 = []
         liste2.append(getProf.json())
