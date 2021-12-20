@@ -1,5 +1,5 @@
 # candidateSearch
-A Django Web App that makes automated searches with one of the “Full Stack Software Engineer”, “Mobile Developer” or “Frontend Developer” keywords.
+A Django based web app that makes automated searches with one of the “Full Stack Software Engineer”, “Mobile Developer” or “Frontend Developer” keywords.
 
 - Create a PostgreSQL database.
  
