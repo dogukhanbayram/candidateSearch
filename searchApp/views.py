@@ -29,7 +29,7 @@ def frontend(request):
     for data in cleanedData:
         
         #This request provides me the details of the people that showed up on the search query
-        getProf = requests.get(cleanedData[sayac2], auth=('dogukhanbayram','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'))
+        getProf = requests.get(cleanedData[sayac2], auth=('githubusername','githubapitoken'))# YOU NEED TO CHANGE THIS
         sayac2=sayac2+1
         liste2 = []
         liste2.append(getProf.json())
